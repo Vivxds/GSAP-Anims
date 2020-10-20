@@ -1,0 +1,36 @@
+html,
+body {
+  margin: 0;
+  background: black;
+  overflow-x: hidden;
+  height: 2000px;
+}
+
+.spacer {
+  display: block;
+  height: 200px;
+  background-color: black;
+}
+.wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.hide,
+.appear {
+  display: block;
+  width: 100vw;
+  height: auto;
+}
+
+.appear,
+.mask {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.mask {
+  height: 100%;
+  overflow: hidden;
+}
